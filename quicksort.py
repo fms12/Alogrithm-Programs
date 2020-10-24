@@ -14,8 +14,8 @@ def quick_sort(arr, low, high):
         p = partition(arr, low, high)
         quick_sort(arr, low, p - 1)
         quick_sort(arr, p + 1, high)
-
-arr=[9,8,7,6,5,4,4,3,1]
+str=input("Enter the your list")
+arr=list(map(int,str.split())
 quick_sort(arr, 0, len(arr) - 1)
 print(arr)
 
