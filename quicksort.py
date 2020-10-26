@@ -14,8 +14,12 @@ def quick_sort(arr, low, high):
         p = partition(arr, low, high)
         quick_sort(arr, low, p - 1)
         quick_sort(arr, p + 1, high)
-str=input("Enter the your list")
-arr=list(map(int,str.split())
+# str=input("Enter the your list")
+# arr=list(map(int,str.split())
+ n = int(input())
+arr = list(map(int, input().rstrip().split()))
+# take input form user
+
 quick_sort(arr, 0, len(arr) - 1)
 print(arr)
 
