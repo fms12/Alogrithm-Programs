@@ -1,2 +1,2 @@
-                           ------------------------------------  { # SORTING_PROGRAME }  --------------------            
-                    -----------------------Here all the sorting programe is in the best time complexity----------------------
+                                                       { # ALl ALGORITHM_PROGRAME }           
+                                      Here all you get all the ALGORITHM PROGRMA in PYTHON in the best time complexity
